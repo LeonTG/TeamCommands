@@ -1,0 +1,16 @@
+name: TeamCommands
+main: com.leontg77.teamcommands.Main
+version: 1.0
+author: LeonTG77
+description: Basic team commands for UHC.
+
+commands:
+  teamchat:
+    description: Send messages to your teammates.
+    aliases: [pm, tc]
+  teamcoords:
+    description: Send your coordinates to your teammates.
+    aliases: [tl, sendcoords, pmcoords, teamloc]
+  pmores:
+    description: Send your ore count to your teammates.
+    aliases: [sendores]

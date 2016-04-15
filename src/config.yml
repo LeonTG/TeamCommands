@@ -1,0 +1,12 @@
+# Configuration for command formats and prefixes
+
+
+team chat:
+  prefix: "&4Team &8\xbb "
+  format: '&6&o{name}&8&o: &f{message}'
+team coords:
+  prefix: "&4Team &8\xbb "
+  format: '&6&o{name}&8&o: &7X: &a{x} &7Y: &a{y} &7Z: &a{z} &8(&c{dimention}&8)'
+pm ores:
+  prefix: "&4Team &8\xbb "
+  format: '&6&o{name}&8&o: &7Iron: &a{iron} &7Gold: &a{gold} &7Diamonds: &a{diamonds}'
