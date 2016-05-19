@@ -10,21 +10,21 @@ ___
 
 ___
 
-/pm <message> - *Send messages to your teammates.*
+`/pm <message>` - *Send messages to your teammates.*
 
-Aliases: /teamchat, /tc
-
-___
-
-/tl - *Send coordinates to your teammates.*
-
-Aliases: /teamcoords, /sendcoords, /pmcoords, /teamloc
+Aliases: `/teamchat`, `/tc`
 
 ___
 
-/pmores - *Send your ore count to your teammates.*
+`/tl` - *Send coordinates to your teammates.*
 
-Aliases: /sendores
+Aliases: `/teamcoords`, `/sendcoords`, `/pmcoords`, `/teamloc`
+
+___
+
+`/pmores` - *Send your ore count to your teammates.*
+
+Aliases: `/sendores`
 
 ___
 
@@ -35,26 +35,32 @@ ___
 *None!*
 ___
 
+**Adding your own aliases:**
+
+Open the plugin.yml file in the plugin jar and just add the aliases to the exisiting ones in the command part of the file
+
+___
+
 **Configuration**
 
 Theres a config section for each command, one having the commands prefix and one being the format itself.
 
 **Team Chat:**
-{name} is replaced with the player sending the command.
-{message} is replaced with the message being sent.
+`{name}` is replaced with the player sending the command.
+`{message}` is replaced with the message being sent.
 
 **Team Coords:**
-{name} is replaced with the player sending the command.
-{x} is replaced with the player's X coords.
-{y} is replaced with the player's Y coords.
-{z} is replaced with the player's Z coords.
-{dimention} is replaced with the player's dimention. (Ex. Nether)
+`{name}` is replaced with the player sending the command.
+`{x}` is replaced with the player's X coords.
+`{y}` is replaced with the player's Y coords.
+`{z}` is replaced with the player's Z coords.
+`{dimention}` is replaced with the player's dimention. (Ex. Nether)
 
 **PMOres:**
-{name} is replaced with the player sending the command.
-{iron} is replaced with the amount of iron.
-{gold} is replaced with the amount of gold.
-{diamonds} is replaced with the amount of diamonds.
+`{name}` is replaced with the player sending the command.
+`{iron}` is replaced with the amount of iron.
+`{gold}` is replaced with the amount of gold.
+`{diamonds}` is replaced with the amount of diamonds.
 
 The color codes are &[colornumber] and it supports multiple colors, All color codes can be found [here](http://minecraft.gamepedia.com/Formatting_codes)
 
